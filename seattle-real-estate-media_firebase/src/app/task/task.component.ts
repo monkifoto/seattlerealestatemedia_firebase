@@ -14,7 +14,15 @@
  * limitations under the License.
  */
 
-/* You can add global styles to this file, and also import other style files */
+import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { Task } from './task';
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@Component({
+  selector: 'app-task',
+  templateUrl: './task.component.html',
+  styleUrls: ['./task.component.scss']
+})
+export class TaskComponent {
+  @Input() task: Task|null = null;
+  @Output() edit = new EventEmitter<Task>();
+}

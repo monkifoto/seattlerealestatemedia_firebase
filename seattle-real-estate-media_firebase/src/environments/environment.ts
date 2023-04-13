@@ -1,12 +1,12 @@
 export const environment = {
   production: false,
   firebase:{
-    apiKey: "AIzaSyDk5vxQCHtXQwUPrgSHT57P2qg6Fvc_v7A",
-  authDomain: "seattlerealestatemedia.firebaseapp.com",
-  projectId: "seattlerealestatemedia",
-  storageBucket: "seattlerealestatemedia.appspot.com",
-  messagingSenderId: "188058057245",
-  appId: "1:188058057245:web:53845acab161c0969464f4",
-  measurementId: "G-EP2DD51D6W"
+    apiKey: "AIzaSyAP5G1MgW2XGtIpZcy_nAOY5WcyHQ7Hk4M",
+  authDomain: "kanbanfire-1bbd5.firebaseapp.com",
+  projectId: "kanbanfire-1bbd5",
+  storageBucket: "kanbanfire-1bbd5.appspot.com",
+  messagingSenderId: "912110705765",
+  appId: "1:912110705765:web:20996a6a7b7188caa47a8c",
+  measurementId: "G-D6N3WVSBYQ"
   }
 }
