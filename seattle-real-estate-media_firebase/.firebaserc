@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "seattlerealestatemedia": {
+      "hosting": {
+        "seattle-real-estate-media_firebase": [
+          "seattlerealestate"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "seattlerealestatemedia"
+  }
+}
